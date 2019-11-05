@@ -1,3 +1,4 @@
+// import {FormProps} from 'antd/lib/form'
 /**
  * 数据类型
  */
@@ -37,7 +38,8 @@ const leixingduanyan: number = 1;
  * 参数,可选参数, 返回值,默认参数
  */
 // 参数,可选参数, 返回值,默认参数
-function canshufanhuizhi(canshu: number, kexuancanshu?: string, morencanshu: boolean = true): void {
+// function canshufanhuizhi(canshu: number, kexuancanshu?: string, morencanshu: boolean = true): ReactNode | JSX.Element {
+    function canshufanhuizhi(canshu: number, kexuancanshu?: string, morencanshu: boolean = true): void {
     // console.log(morencanshu);
 }
 canshufanhuizhi(1);
