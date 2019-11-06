@@ -38,7 +38,6 @@ const leixingduanyan: number = 1;
  * 参数,可选参数, 返回值,默认参数
  */
 // 参数,可选参数, 返回值,默认参数
-// function canshufanhuizhi(canshu: number, kexuancanshu?: string, morencanshu: boolean = true): ReactNode | JSX.Element {
     function canshufanhuizhi(canshu: number, kexuancanshu?: string, morencanshu: boolean = true): void {
     // console.log(morencanshu);
 }
@@ -316,6 +315,21 @@ const shiliobj: IShilileixing = {
  * declare
  * 只有在js库没有对应的@type/库名时才会用到, 不太常用
  */
+/**
+ * react
+ */
+// :ReactNode
+// : JSX.Element
+// event: React.ForEvent<HTMLFormElement>
+/**
+ * antd
+ */
+// import {} from 'antd/lib/form';
+/**
+ * redux
+ */
+// import {ReducerMapObject, Anyaction} from 'redux';
+// reducers: ReducerMapObject<any,  Anyaction>
 console.log(3);
 
 
